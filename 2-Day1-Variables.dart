@@ -1,5 +1,7 @@
 void main() {
   var myName = "Mustafa Buyukdereli"; //double quote
+
+  var thisYear = 2023;
   
   print(myName);
   
