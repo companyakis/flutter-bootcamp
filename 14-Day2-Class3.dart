@@ -20,4 +20,9 @@ class Country {
   void zeroPopulation() {
     population = 0; //side effect
   }
+
+  void increasePopulation(int extraPeople) {
+    population += extraPeople;
+  }
+  
 }
