@@ -6,5 +6,5 @@ class Country {
   bool isRepublic; //late bool
 
   //constructor
-  Country(this.name, this.population, this.isRepublic);
+  Country({required this.name, required this.population, required this.isRepublic});
 }
