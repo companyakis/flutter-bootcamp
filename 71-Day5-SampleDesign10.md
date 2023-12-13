@@ -4,7 +4,7 @@ Create a folder and add the pictures you want to use in your project
 
 Open pubspec.yaml file 
 
-![image](https://github.com/companyakis/flutter-bootcamp/assets/77589867/f4b6c44a-79e6-409d-8a5d-c9e4faf78a0f)
+![image](https://github.com/companyakis/flutter-bootcamp/assets/77589867/9e68540b-717e-42a9-b944-3edc5235953b)
 
 Click get gackages
 
