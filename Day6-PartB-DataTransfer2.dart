@@ -22,9 +22,7 @@ class _GameScreenState extends State<GameScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-                "${widget.person.name} - ${widget.person.age} - ${widget.person.married}"),
-            const Text("This is game page"),
+            Text("${widget.person.name} - ${widget.person.age} - ${widget.person.married}"),  
             const SizedBox(
               height: 20,
             ),
@@ -41,6 +39,5 @@ class _GameScreenState extends State<GameScreen> {
         ),
       ),
     );
-  
   }
 }
