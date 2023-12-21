@@ -36,37 +36,11 @@ class _WidgetsState extends State<Widgets> {
                 setState(() {
                   data = controller.text;
                 });
+                controller.text = "";
               },
               child: const Text("Ok")),
         ],
       )),
-    );
-  }
-}
-
-//--------------------------main.dart file is below-------------------------------------------------
-
-import 'package:flutter/material.dart';
-import 'package:widgets/widgets.dart';
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: Widgets(),
     );
   }
 }
