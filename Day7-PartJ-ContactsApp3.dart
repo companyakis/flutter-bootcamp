@@ -1,4 +1,4 @@
-//registerpage.dart file
+//registerpage.dart
 
 import 'package:flutter/material.dart';
 
@@ -14,7 +14,7 @@ class _RegisterPageState extends State<RegisterPage> {
   var tfPersonMobile = TextEditingController();
 
   Future<void> register(String person_name, String person_mobile) async {
-    print("Register person: $tfPersonName - $tfPersonMobile");
+    print("Register person: $person_name. - $person_mobile");
   }
 
   @override
@@ -35,7 +35,11 @@ class _RegisterPageState extends State<RegisterPage> {
               controller: tfPersonMobile,
               decoration: const InputDecoration(hintText: "Mobile phone"),
             ),
-            ElevatedButton(onPressed: () {}, child: const Text("SIGN UP")),
+            ElevatedButton(
+                onPressed: () {
+                  register(tfPersonName.text, tfPersonMobile.text);
+                },
+                child: const Text("SIGN UP")),
           ],
         ),
       )),
